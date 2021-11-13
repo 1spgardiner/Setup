@@ -1,0 +1,17 @@
+Chocolately
+git
+powershell-core
+azure-cli
+azurepowershell
+vscode
+vcredist-all
+docker-desktop
+vscode-docker
+
+
+Docker failed so manually deployed
+
+Open VSCode
+Extensions Remote Development
+https://msdevopsdude.com/
+
