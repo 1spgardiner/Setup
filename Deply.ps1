@@ -26,7 +26,9 @@ choco install Notepadplusplus -y
 choco install terminal -y
 choco install itunes -y
 
-git config — global user.email "sp#_#gardiner#a#thotmail#dot#com"
+git config --global user.email "sp#_#gardiner#a#thotmail#dot#com"
+git config --global user.name "#stephen#"
+
 
 ###endregion
 #Install Visual Studio Extensions
