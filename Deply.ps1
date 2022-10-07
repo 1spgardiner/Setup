@@ -1,26 +1,32 @@
-choco install   Chocolately -y 
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+#Then we need to load a new window to continue
+
+
 choco install   git -y 
-git config — global user.email “sp_gardiner@hitmail.com”
+
 choco install   powershell-core -y 
 choco install   azure-cli -y 
 choco install   azurepowershell -y 
 choco install   vscode -y 
 choco install   vcredist-all -y 
-choco install   docker-desktop -y 
-choco install   vscode-docker -y 
-choco install 7-zip
-choco install Adobe-reader
-choco install itunes
-choco install greenshot
-choco install keepass
-choco install irfanviewer
-choco install mRemoteNG
-choco install Notepad++
-choco install vcredist-all
-choco install winscp
-choco install zoom
-choco install terminal
+REM choco install   docker-desktop -y 
+REM choco install   vscode-docker -y 
+choco install 7zip.install -y
+choco install obs-studio -y
+choco install googlechrome -y
+choco install zoomit -y
+REM choco install Adobe-reader
+choco install itunes -y
+choco install greenshot -y
+choco install keepass -y
+REM choco install irfanviewer
+REM choco install mRemoteNG
+choco install Notepadplusplus -y
+choco install terminal -y
+choco install itunes -y
 
+git config — global user.email "sp#_#gardiner#a#thotmail#dot#com"
 
 ###endregion
 #Install Visual Studio Extensions
